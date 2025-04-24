@@ -1,7 +1,8 @@
 {
-  "name": "my-package",
+  "name": "nikeyyy",
+  "version": "1.0.0",
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  }
+    "start": "node server.js"
+  },
+  "license": "MIT"
 }
