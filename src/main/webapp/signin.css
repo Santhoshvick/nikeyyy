@@ -1,0 +1,139 @@
+@charset "ISO-8859-1";
+#box-1
+{
+    background-color:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    height: 450px;
+    margin-left: 37%;
+    margin-top: 100px;
+    box-shadow: 1px 1px 10px 3px rgba(137, 31, 118, 0.24);
+    display: inline-block;
+    color: rgba(38, 22, 68, 0.645);
+    position: absolute;   
+}
+
+.sign-page
+{
+    
+    margin-left: 85px;
+    background-color:grey;
+    color: #1565C0;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: 3px solid blue;
+    justify-content: center;
+    
+}
+
+.caption
+{
+    color: white;
+    display: grid;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 21px;
+    color: rgba(38, 22, 68, 0.645);
+   
+}
+
+.text-field
+{
+    display:flex;
+    width: 300px;
+    outline: none;
+    margin-bottom: 10px;
+    padding-top:5px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 56, 27);
+    font-size:15px;
+    color:#212121;
+    background-color: #F5F5F5;
+    margin-left: 40px;
+}
+
+
+.login
+{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    background-color:#1A2377;;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 46px;
+    display: block;
+    cursor: pointer;
+    color:white;
+}
+
+
+body {
+    position: relative;
+    background-color: rgba(23, 1, 1, 0.352);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    height: 130%;
+    width: 100%;
+    background-image: url("https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/a4e06622-576f-4b92-a3d9-fa94886bafda/AIR+MAX+DN8.png"); /* Nike sneaker themed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust for softer or bolder look */
+    z-index: -1;
+}
+
+
+
+.login:hover
+{
+	background-color:#3949AB;
+}
+
+
+.text-field:focus{
+    border-bottom: 3px solid rgb(168, 26, 26);
+}
+
+
+
+.span1
+{
+    display: block;
+    margin-left: 40px;
+}
+
+#forgot-password
+{
+    padding-left: 240px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+    color:#3949AB;
+}
+h4
+{
+    display: block;
+    font-size: 10px;
+    padding-left: 543px;
+    padding-top: 550px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mens.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="basketball.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="navi">HOME</a>
+        <a href="mens.html" class="navi">Men</a>
+        <a href="womens.html" class="navi">Women</a>
+        <a href="kids.html" class="navi">kid</a>
+        <a href="basket.html" class="navi">Basket</a>
+        <a href="football.html" class="navi">Football</a>
+        <h1 id="name">NIKEYYY</h1>
+
+        
+
+        <div id="nav2">
+          <a href="" class="navi">SUSTAINABLITY</a>
+          <a href="" class="navi">RERUN</a>
+          <a href="" class="navi">STORE</a>
+      </div>
+
+      <div id="cart" class="move">
+        <button id="close" class="product-cart">close</button>
+        <button id="payment" class="product-cart">Payment</button>
+    </div>
+
+      <div id="nav3">
+          <i class="fa-brands fa-searchengin" onclick="searchEngine()" ></i>
+          <i class="fa-regular fa-user" id="profile" onclick="pro()" ></i>
+          <i class="fa-regular fa-circle-question"></i>
+          <i class="fa-solid fa-cart-shopping" id="cart1" ></i> <span id="cart-value" >0</span>
+      </div>
+     </nav>
+   
+     <div id="search-box">
+      <input type="text" placeholder="search" id="searchitem">
+      <ul id="suggestions"></ul>
+  </div>
+    
+ <a href="#prod1"><div class="products"  >
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/641e2959-1529-4157-9801-0e92e043782a/JA+2+EP.png" class="image1" alt="">
+     </a>
+      <p class="text">Ja 2 'Foundation' EP</p>
+      <p class="shoetype">Basketball Shoe</p>
+      <p class="cost">MRP : ₹ 10 795.00</p>
+      <p class="cost">Inclusive of all taxes
+       (Also includes all applicable duties)</p>
+      <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+ </div> 
+ <a href="#prod2">
+ <div class="products">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4aa50aaf-1393-4c1d-8eb3-db2a1fb16714/JORDAN+TATUM+3+PF.png" alt="" class="image1">
+ </a>
+   <p class="text">Tatum 3 PF 'Zen'</p>
+      <p class="shoetype">Baksetball Shoe</p>
+      <p class="cost">MRP : ₹ 11 495.00</p>
+      <p class="cost">Inclusive of all taxes
+       (Also includes all applicable duties)</p>
+       <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+ </div>
+
+ <a href="#prod3">
+ <div class="products">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/20fd0937-0c1e-4149-b098-607ce9c428be/JA+2+EP.png" class="image1" alt="">
+ </a>
+   <p class="text">Ja 2 'Purple Sky' EP</p>
+   <p class="shoetype">Basketball Shoe</p>
+   <p class="cost">MRP : ₹ 10 795.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+</div> 
+
+<a href="#prod4"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/754881e3-8550-4635-ab1a-99f0742be06d/JORDAN+LUKA+3+PF.png" alt="" class="image1">
+</a>
+<p class="text">Nike Luca 3 PF Black</p>
+   <p class="shoetype">Basketball Shoe</p>
+   <p class="cost">MRP : ₹ 11 297</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+   <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod5"><div class="products">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/62c53b93-8b79-43f9-802a-838691c216bc/G.T.+CUT+3+EP+OLY.png" class="image1" alt="">
+ </a>
+   <p class="text">Nike G.T Cut 3 EP Electric</p>
+   <p class="shoetype">Basketball Shoe</p>
+   <p class="cost">MRP : ₹ 18 095.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+   <button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod6"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/da518c33-7e1d-408e-b192-0fa60a928391/JORDAN+HEIR+SERIES+PF.png" alt="" class="image1">
+</a>
+<p class="text">Jordan Heir Series Pf 'Volt'</p>
+   <p class="shoetype">Men's Shoe</p>
+   <p class="cost">MRP : ₹ 9 207.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod7"><div class="products">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e4f6a9d-2f5b-419d-9651-ca3c5ddba109/KD17+EP.png" class="image1" alt="">
+ </a>
+   <p class="text">Nike KD17 EP</p>
+   <p class="shoetype">Basketball shoe</p>
+   <p class="cost">MRP : ₹ 13 995.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+   <button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod8"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b47e3f3e-6da8-4624-af3b-06ff8b649d8b/GIANNIS+FREAK+6+EP.png" alt="" class="image1">
+</a>
+<p class="text">Nike Giannis Freak 6 EP</p>
+   <p class="shoetype">Basketball Shoe</p>
+   <p class="cost">MRP : ₹ 11 895.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+   </div>
+
+<a href="#prod9"><div class="products">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/25160e26-eade-4408-aaaa-8ebd97695709/GIANNIS+IMMORTALITY+4+EP.png" class="image1" alt="">
+ </a>
+   <p class="text">Giannis 4'Hallowen'</p>
+   <p class="shoetype">Basketball Shoe</p>
+   <p class="cost">MRP : ₹ 7 095.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+   <button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod10"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/026c7567-2c54-405d-a605-d8b6b96f6093/AIR+JORDAN+XXXIX+PF.png" alt="" class="image1">
+</a>
+<p class="text">Air Jordan XXXlX PF</p>
+   <p class="shoetype">Basketball Shoe</p>
+   <p class="cost">MRP : ₹ 17 477.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod11"><div class="products">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4b5cc7fb-f898-4f0d-8052-b98da0010329/JORDAN+LUKA+3+PF.png" class="image1" alt="">
+ </a>
+   <p class="text">Nike Luka 3 PF Purple</p>
+   <p class="shoetype">Men's Shoe</p>
+   <p class="cost">MRP : ₹ 10 795.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+   <button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod12"><div class="products">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a3d41e2e-fda3-4360-8c2a-f42e0c771a34/JORDAN+TATUM+3+PF.png" alt="" class="image1">
+</a>
+ <p class="text">Tatum 3PF (Basketball Shoe)</p>
+   <p class="shoetype">Men's Shoe</p>
+   <p class="cost">MRP : ₹ 11 495.00</p>
+   <p class="cost">Inclusive of all taxes
+    (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+       <button class="buy">Add to Cart</button>
+</div>
+</main>
+
+
+<div class="details" id="prod1">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/641e2959-1529-4157-9801-0e92e043782a/JA+2+EP.png" class="image1" alt="">
+   <p class="productDetails">
+   Ja 2'Foundation' EP <br> <br> <bold>Rs. 10 795.00</bold> <br> <br> <strike>Rs. 14 995.00</strike>...36% OFF  <br> <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br> <br>
+    <h1>11</h1><h1>10</h1> 
+   <h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus12" ></i> Quantity: <span id="twelve">0</span> <i class="fa-solid fa-plus" id="plus12"></i></p>
+
+
+
+  <button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details" id="prod2">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4aa50aaf-1393-4c1d-8eb3-db2a1fb16714/JORDAN+TATUM+3+PF.png" class="image1" alt="">
+   <p class="productDetails">Tatum 3 PF 'Zen'<br> <br>Rs. 11 495.00  <br><br> <strike>Rs. 12 495</strike>...30% OFF
+   <br>  <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+     <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus11" ></i> Quantity: <span id="eleven">0</span> <i class="fa-solid fa-plus" id="plus11"></i></p>
+
+
+  <button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod3">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/20fd0937-0c1e-4149-b098-607ce9c428be/JA+2+EP.png" class="image1" alt="">
+   <p class="productDetails">
+     Ja 2 'Purple Sky' EP <br> <br>Rs. 10 795.00<br><br> <strike>Rs. 12 403</strike>...15% OFF
+   <br>  <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+     <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus10" ></i> Quantity: <span id="ten">0</span> <i class="fa-solid fa-plus" id="plus10"></i></p>
+
+  <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod4">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/754881e3-8550-4635-ab1a-99f0742be06d/JORDAN+LUKA+3+PF.png" class="image1" alt="">
+   <p class="productDetails">
+     Nike Luka 3 PF<br> <br>Rs. 11 297.00 <br><br> <strike>Rs. 12 979.</strike>...17% OFF
+   <br>  <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+     <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus9" ></i> Quantity: <span id="nine">0</span> <i class="fa-solid fa-plus" id="plus9"></i></p>
+
+  <button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod5">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/62c53b93-8b79-43f9-802a-838691c216bc/G.T.+CUT+3+EP+OLY.png" class="image1" alt="">
+   <p class="productDetails">
+     Nike GT Cut 3 Ep Electric<br> <br>Rs. 18 095.00 <br><br><strike>Rs. 19 295</strike>...12% OFF
+   <br>  <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+     <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus8" ></i> Quantity: <span id="eight">0</span> <i class="fa-solid fa-plus" id="plus8"></i></p>
+
+  <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod6">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/da518c33-7e1d-408e-b192-0fa60a928391/JORDAN+HEIR+SERIES+PF.png" class="image1" alt="">
+   <p class="productDetails">
+     Jordan Heir Series Pf 'Volt'<br> <br>Rs. 9 207.00 <br><br><strike>Rs. 9 847</strike>...12% OFF
+   <br>  <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+     <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus7" ></i> Quantity: <span id="seven">0</span> <i class="fa-solid fa-plus" id="plus7"></i></p>
+
+  <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod7">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7e4f6a9d-2f5b-419d-9651-ca3c5ddba109/KD17+EP.png" class="image1" alt="">
+   <p class="productDetails">
+     Nike KD17 EP <br> <br>Rs. 13 995.00 <br><br> <strike>Rs. 14 999</strike>...23% OFF
+   <br>  <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+     <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus6" ></i> Quantity: <span id="six">0</span> <i class="fa-solid fa-plus" id="plus6"></i></p>
+  <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod8">
+   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b47e3f3e-6da8-4624-af3b-06ff8b649d8b/GIANNIS+FREAK+6+EP.png" class="image1" alt="">
+   <p class="productDetails">
+     Nike Giannis Freak 6 EP <br> <br>Rs. 11 895.00 <br><br><strike>Rs. 12 895</strike>...33% OFF
+   <br>  <br>
+   MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+     <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus5" ></i> Quantity: <span id="five">0</span> <i class="fa-solid fa-plus" id="plus5"></i></p>
+  <button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod9">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/25160e26-eade-4408-aaaa-8ebd97695709/GIANNIS+IMMORTALITY+4+EP.png" class="image1" alt="">
+ <p class="productDetails">
+  Giannis 4'Halloween' <br> <br>Rs. 7 095.00 <br><br><strike>Rs. 9 999</strike>...57% OFF
+ <br>  <br>
+ MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus4" ></i> Quantity: <span id="four">0</span> <i class="fa-solid fa-plus" id="plus4"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details"  id="prod10">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/026c7567-2c54-405d-a605-d8b6b96f6093/AIR+JORDAN+XXXIX+PF.png" class="image1" alt="">
+ <p class="productDetails">
+  Air Jordan XXXlX  PF <br> <br>Rs. 17 477.00 <br><br><strike>Rs. 19 797</strike>...19% OFF
+ <br>  <br>
+ MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+   <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus3" ></i> Quantity: <span id="three">0</span> <i class="fa-solid fa-plus" id="plus3"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details"  id="prod11">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4b5cc7fb-f898-4f0d-8052-b98da0010329/JORDAN+LUKA+3+PF.png" class="image1" alt="">
+ <p class="productDetails">
+   Nike Luka 3 PF(Basket Ball)<br> <br>Rs. 10 795.00 <br><br><strike>Rs. 11 797</strike>27% OFF
+ <br>  <br>
+ MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+   <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus2" ></i> Quantity: <span id="two">0</span> <i class="fa-solid fa-plus" id="plus2"></i></p>
+
+<button class="add" >Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod12">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a3d41e2e-fda3-4360-8c2a-f42e0c771a34/JORDAN+TATUM+3+PF.png" class="image1" alt="">
+ <p class="productDetails">
+   Tatum 3PF (Basketball Shoe)<br> <br>Rs. 11 495.00 <br><br><strike>Rs. 14 495</strike>...44% OFF
+ <br>  <br>
+ MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+   <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus1" ></i> Quantity: <span id="one">0</span> <i class="fa-solid fa-plus" id="plus1"></i></p>
+<button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="footer">
+ <div class="support">
+ <h1>SUPPORT</h1>
+ <a href="">Contact us</a>   
+ <a href="">Track Order</a>
+ <a href="">Sneakers</a>
+ <a href="">Cookie Setting</a>
+ <a href="">My Account</a>
+ <a href="">Terms & Conditions</a></div>
+
+ <div class="about">
+ <h1>ABOUT</h1>
+ <a href="">Company</a>
+ <a href="">Corporate News</a>
+ <a href="">Investors</a>
+ <a href="">Sustainablity</a>
+ <a href="">Carrers</a>
+ <a href="">Store Location</a></div>
+
+ <div class="contact">
+  <h1 >STAY UP TO DATE</h1>
+  <a href="https://www.youtube.com/user/nike" id="socialmedia1"><i class="fa-brands fa-youtube" id="socialmedia"></i></a>
+  <a href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  id="socialmedia1"><i class="fa-brands fa-x-twitter" id="socialmedia"></i></a>
+  <a href="https://www.instagram.com/nike/?hl=en"  id="socialmedia1"><i class="fa-brands fa-instagram" id="socialmedia"></i></a>   
+  <a href="https://www.facebook.com/nike/"  id="socialmedia1"><i class="fa-brands fa-facebook" id="socialmedia"></i></a>  
+</div> 
+ <div class="payment">
+     <h1 id="payment-method">PAYMENT</h1>
+     <a href="" class="payment-method1"><i class="fa-brands fa-cc-visa" id="payment-method"></i>  Visa</a>
+     <a href="" class="payment-method1"><i class="fa-brands fa-cc-mastercard" id="payment-method"></i>  Master Card</a>
+     <a href="" class="payment-method1"><i class="fa-brands fa-cc-amex" id="payment-method"></i>  American Express</a>
+     <a href="" class="payment-method1"><i class="fa-brands fa-paypal" id="payment-method"></i>  Paypal</a>
+     <a href="" class="payment-method1"><i class="fa-brands fa-google-pay" id="payment-method"></i>  Google Pay</a>
+     <a href="" class="payment-method1"><i class="fa-brands fa-amazon-pay" id="payment-method"> </i>  Amazon Pay</a>
+ </div>
+
+ 
+</div>
+
+         
+      
+         
+
+<script src="https://kit.fontawesome.com/f515d01f5b.js" crossorigin="anonymous"></script>
+<script src="action.js"></script>
+
+</body>
+</html>

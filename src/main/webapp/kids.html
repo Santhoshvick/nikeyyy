@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mens.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="kids.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="navi">HOME</a>
+        <a href="mens.html" class="navi">Men</a>
+        <a href="womens.html" class="navi">Women</a>
+        <a href="kids.html" class="navi">kid</a>
+        <a href="basket.html" class="navi">Basket</a>
+        <a href="football.html" class="navi">Football</a>
+        <h1 id="name">NIKEYYY</h1>
+
+        
+
+        <div id="nav2">
+            <a href="" class="navi">SUSTAINABLITY</a>
+            <a href="" class="navi">RERUN</a>
+            <a href="" class="navi">STORE</a>
+        </div>
+        <div id="cart" class="move">
+          <button id="close" class="product-cart">close</button>
+          <button id="payment" class="product-cart">Payment</button>
+      </div>
+        <div id="nav3">
+            <i class="fa-brands fa-searchengin" onclick="searchEngine()"></i>
+            <i class="fa-regular fa-user" id="profile" onclick="pro()" ></i>
+            <i class="fa-regular fa-circle-question"></i>
+            <i class="fa-solid fa-cart-shopping" id="cart1"></i><span id="cart-value" >0</span>
+        </div>
+     </nav>
+
+<main>
+  <div id="search-box">
+    <input type="text" placeholder="search" id="searchitem">
+    <ul id="suggestions"></ul>  
+</div>
+
+<a href="#prod1"><div class="products"  >
+  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90a91626-09fe-4427-b6f1-8bf0ec7f86af/NIKE+AIR+MAX+90+NN+GS.png" class="image1" alt="">
+ </a>
+  <p class="text">Nike Air Max 90 Next Nature</p>
+  <p class="shoetype">Kid's Shoe(7-10 years)</p>
+  <p class="cost">MRP : ₹ 9 497.00</p>
+  <p class="cost">Inclusive of all taxes
+   (Also includes all applicable duties)</p>
+  <button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div> 
+<a href="#prod2">
+<div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bf1f0b47-d1ca-4d09-8c57-62233d9ac52c/NIKE+REVOLUTION+7+%28GS%29.png" alt="" class="image1">
+</a>
+<p class="text">Nike Revolution '7</p>
+  <p class="shoetype">kid's Shoe(7-12 years)</p>
+  <p class="cost">MRP : ₹ 3 495.00</p>
+  <p class="cost">Inclusive of all taxes
+   (Also includes all applicable duties)</p>
+   <button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+<a href="#prod3">
+<div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bdfb0173-0a38-4e63-89ee-8cf5da7c38f4/FLEX+RUNNER+3+%28PS%29.png" class="image1" alt="">
+</a>
+<p class="text">Nike Flex Runner 3</p>
+<p class="shoetype">Kid's Shoe</p>
+<p class="cost">MRP : ₹ 3 295.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div> 
+
+<a href="#prod4"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/19b5fcd7-829c-43c3-a397-692397ac71ce/JORDAN+1+LOW+ALT+SE+%28TD%29.png" alt="" class="image1">
+</a>
+<p class="text">Jordan 1 Low Alt SE</p>
+<p class="shoetype">Kid's Shoe</p>
+<p class="cost">MRP : ₹ 4 595</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod5"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3223aa19-52e5-4f06-a8d4-7d1009f500d8/AIR+JORDAN+1+LOW+SE+%28GS%29.png" class="image1" alt="">
+</a>
+<p class="text">Air Jordan 1 Low SE</p>
+<p class="shoetype">Kids's Shoe</p>
+<p class="cost">MRP : ₹ 8 295.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+<button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod6"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7f513b7b-dba7-476a-b06e-8e2c793de71c/JORDAN+SPIZIKE+LOW+%28GS%29.png" alt="" class="image1">
+</a>
+<p class="text">Jordan Spizike Low</p>
+<p class="shoetype">Kid's Shoe</p>
+<p class="cost">MRP : ₹ 9 297.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod7"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/29da9e89-75f0-4dc8-a60b-11a4dcc278fd/JORDAN+MAX+AURA+6+%28GS%29.png" class="image1" alt="">
+</a>
+<p class="text">Jordan Max Aura 6</p>
+<p class="shoetype">Kid's Shoe</p>
+<p class="cost">MRP : ₹ 7 495.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+<button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod8"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d01e3d78-c0bc-41e4-9af8-5f8b563e7e24/JORDAN+ONE+TAKE+5+%28GS%29.png" alt="" class="image1">
+</a>
+<p class="text">Jordan One Take 5</p>
+<p class="shoetype">Kid's Shoe</p>
+<p class="cost">MRP : ₹ 6 147.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+<a href="#prod9"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da43848d-0101-4f30-9aa6-8bd8b555bd13/AIR+FORCE+1+LV8+%28GS%29.png" class="image1" alt="">
+</a>
+<p class="text">Nike Air Force 1 LV8</p>
+<p class="shoetype">Kid's Shoe(12-16 years)</p>
+<p class="cost">MRP : ₹ 7 877.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+<button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod10"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ba7aff78-afe8-4a05-ae00-8f9474ad390f/NIKE+AIR+MORE+UPTEMPO+%28GS%29.png" alt="" class="image1">
+</a>
+<p class="text">Nike Air More Uptempo</p>
+<p class="shoetype">kid's Shoe(12-16 Years)</p>
+<p class="cost">MRP : ₹ 10 295.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod11"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b59665b1-d7db-4d0d-9bbb-72cd2c0a7159/NIKE+SB+DAY+ONE+%28GS%29.png" class="image1" alt="">
+</a>
+<p class="text">Nike SB Day One</p>
+<p class="shoetype">Kid's Shoe</p>
+<p class="cost">MRP : ₹ 6 295.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+<button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod12"><div class="products">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/43979571-efd4-4e8b-b5b7-17d00ccdb1fc/JORDAN+DAY1+E.O.+%28GS%29.png" alt="" class="image1">
+</a>
+<p class="text">Jordan Day1 EO</p>
+<p class="shoetype">Kid's Shoe(12-16 Years)</p>
+<p class="cost">MRP : ₹ 5 995.00</p>
+<p class="cost">Inclusive of all taxes
+(Also includes all applicable duties)</p>
+<button class="buy">Order Now</button>
+   <button class="buy">Add to Cart</button>
+</div>
+</main>
+
+
+<div class="details" id="prod1">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90a91626-09fe-4427-b6f1-8bf0ec7f86af/NIKE+AIR+MAX+90+NN+GS.png" class="image1" alt="">
+<p class="productDetails">
+Nike Air Max 90 New Nature <br> <br> <bold>Rs. 9 497.00</bold> <br> <br> <strike>Rs. 10 497.00</strike>...16% OFF  <br> <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br> <br>
+<h1>11</h1><h1>10</h1> 
+<h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus12" ></i> Quantity: <span id="twelve">0</span> <i class="fa-solid fa-plus" id="plus12"></i></p>
+
+
+
+<button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details" id="prod2">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bf1f0b47-d1ca-4d09-8c57-62233d9ac52c/NIKE+REVOLUTION+7+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">Nike Revolution '7<br> <br>Rs. 3 495.00  <br><br> <strike>Rs. 4 795</strike>...23% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus11" ></i> Quantity: <span id="eleven">0</span> <i class="fa-solid fa-plus" id="plus11"></i></p>
+
+
+<button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod3">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bdfb0173-0a38-4e63-89ee-8cf5da7c38f4/FLEX+RUNNER+3+%28PS%29.png" class="image1" alt="">
+<p class="productDetails">
+ Nike Flex Runner 3 <br> <br>Rs. 3 295.00<br><br> <strike>Rs. 3 999</strike>...7% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus10" ></i> Quantity: <span id="ten">0</span> <i class="fa-solid fa-plus" id="plus10"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod4">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/19b5fcd7-829c-43c3-a397-692397ac71ce/JORDAN+1+LOW+ALT+SE+%28TD%29.png" class="image1" alt="">
+<p class="productDetails">
+ Jordan 1 Low Alt SE<br> <br>Rs. 4 595.00 <br><br> <strike>Rs. 6 979.</strike>...32% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus9" ></i> Quantity: <span id="nine">0</span> <i class="fa-solid fa-plus" id="plus9"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod5">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3223aa19-52e5-4f06-a8d4-7d1009f500d8/AIR+JORDAN+1+LOW+SE+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+ Air Jordan 1 Low SE<br> <br>Rs. 8 295.00 <br><br><strike>Rs. 8 795</strike>...13% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus8" ></i> Quantity: <span id="eight">0</span> <i class="fa-solid fa-plus" id="plus8"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod6">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7f513b7b-dba7-476a-b06e-8e2c793de71c/JORDAN+SPIZIKE+LOW+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+ Jordan Spizike Low<br> <br>Rs. 9 295.00 <br><br><strike>Rs. 9 847</strike>...19% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus7" ></i> Quantity: <span id="seven">0</span> <i class="fa-solid fa-plus" id="plus7"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod7">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/29da9e89-75f0-4dc8-a60b-11a4dcc278fd/JORDAN+MAX+AURA+6+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+ Jordan Max Aura 6 <br> <br>Rs. 7 495.00 <br><br> <strike>Rs. 12 999</strike>...43% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus6" ></i> Quantity: <span id="six">0</span> <i class="fa-solid fa-plus" id="plus6"></i></p>
+<button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod8">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d01e3d78-c0bc-41e4-9af8-5f8b563e7e24/JORDAN+ONE+TAKE+5+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+ Jordan One Take 5 <br> <br>Rs. 6 167.00 <br><br><strike>Rs. 6 495</strike>...9% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+ <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus5" ></i> Quantity: <span id="five">0</span> <i class="fa-solid fa-plus" id="plus5"></i></p>
+<button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod9">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da43848d-0101-4f30-9aa6-8bd8b555bd13/AIR+FORCE+1+LV8+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+Nike Air Force 1 LV8 <br> <br>Rs. 7 877.00 <br><br><strike>Rs. 8 295</strike>...11% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+<h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+<p class="plus"><i class="fa-solid fa-minus" id="minus4" ></i> Quantity: <span id="four">0</span> <i class="fa-solid fa-plus" id="plus4"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details"  id="prod10">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ba7aff78-afe8-4a05-ae00-8f9474ad390f/NIKE+AIR+MORE+UPTEMPO+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+Nike Air More Uptempo <br> <br>Rs. 10 295.00 <br><br><strike>Rs. 11 797</strike>...19% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+<h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus3" ></i> Quantity: <span id="three">0</span> <i class="fa-solid fa-plus" id="plus3"></i></p>
+
+<button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details"  id="prod11">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b59665b1-d7db-4d0d-9bbb-72cd2c0a7159/NIKE+SB+DAY+ONE+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+Nike Luka 3 PF(Basket Ball)<br> <br>Rs. 10 795.00 <br><br><strike>Rs. 11 797</strike>27% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+<h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus2" ></i> Quantity: <span id="two">0</span> <i class="fa-solid fa-plus" id="plus2"></i></p>
+
+<button class="add" >Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod12">
+<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/43979571-efd4-4e8b-b5b7-17d00ccdb1fc/JORDAN+DAY1+E.O.+%28GS%29.png" class="image1" alt="">
+<p class="productDetails">
+Jordan Day1 EO<br> <br>Rs. 5 995.00 <br><br><strike>Rs. 6 495</strike>...24% OFF
+<br>  <br>
+MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+<h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus1" ></i> Quantity: <span id="one">0</span> <i class="fa-solid fa-plus" id="plus1"></i></p>
+<button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="footer">
+<div class="support">
+<h1>SUPPORT</h1>
+<a href="">Contact us</a>   
+<a href="">Track Order</a>
+<a href="">Sneakers</a>
+<a href="">Cookie Setting</a>
+<a href="">My Account</a>
+<a href="">Terms & Conditions</a></div>
+
+<div class="about">
+<h1>ABOUT</h1>
+<a href="">Company</a>
+<a href="">Corporate News</a>
+<a href="">Investors</a>
+<a href="">Sustainablity</a>
+<a href="">Carrers</a>
+<a href="">Store Location</a></div>
+
+<div class="contact">
+   <h1 >STAY UP TO DATE</h1>
+   <a href="https://www.youtube.com/user/nike" id="socialmedia1"><i class="fa-brands fa-youtube" id="socialmedia"></i></a>
+   <a href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  id="socialmedia1"><i class="fa-brands fa-x-twitter" id="socialmedia"></i></a>
+   <a href="https://www.instagram.com/nike/?hl=en"  id="socialmedia1"><i class="fa-brands fa-instagram" id="socialmedia"></i></a>   
+   <a href="https://www.facebook.com/nike/"  id="socialmedia1"><i class="fa-brands fa-facebook" id="socialmedia"></i></a>  
+</div>  
+
+<div class="payment">
+ <h1 id="payment-method">PAYMENT</h1>
+ <a href="" class="payment-method1"><i class="fa-brands fa-cc-visa" id="payment-method"></i>  Visa</a>
+ <a href="" class="payment-method1"><i class="fa-brands fa-cc-mastercard" id="payment-method"></i>  Master Card</a>
+ <a href="" class="payment-method1"><i class="fa-brands fa-cc-amex" id="payment-method"></i>  American Express</a>
+ <a href="" class="payment-method1"><i class="fa-brands fa-paypal" id="payment-method"></i>  Paypal</a>
+ <a href="" class="payment-method1"><i class="fa-brands fa-google-pay" id="payment-method"></i>  Google Pay</a>
+ <a href="" class="payment-method1"><i class="fa-brands fa-amazon-pay" id="payment-method"> </i>  Amazon Pay</a>
+</div>
+
+
+</div>
+
+
+
+
+     <script src="../javascript/action.js"></script>
+     <script src="https://kit.fontawesome.com/f515d01f5b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

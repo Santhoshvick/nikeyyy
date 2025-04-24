@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mens.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="football.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="navi">HOME</a>
+        <a href="mens.html" class="navi">Men</a>
+        <a href="womens.html" class="navi">Women</a>
+        <a href="kids.html" class="navi">kid</a>
+        <a href="basket.html" class="navi">Basket</a>
+        <a href="football.html" class="navi">football</a>
+        <h1 id="name">NIKEYYY</h1>
+
+        
+
+        <div id="nav2">
+            <a href="" class="navi">SUSTAINABLITY</a>
+            <a href="" class="navi">RERUN</a>
+            <a href="" class="navi">STORE</a>
+        </div>
+
+        <div id="cart" class="move">
+          <button id="close" class="product-cart">close</button>
+          <button id="payment" class="product-cart">Payment</button>
+      </div>
+
+        <div id="nav3">
+            <i class="fa-brands fa-searchengin" onclick="searchEngine()" ></i>
+            <i class="fa-regular fa-user" id="profile" onclick="pro()" ></i>
+            <i class="fa-regular fa-circle-question"></i>
+            <i class="fa-solid fa-cart-shopping" id="cart1" ></i> <span id="cart-value" >0</span>
+        </div>
+     </nav>
+
+   <div id="search-box">
+       <input type="text" placeholder="search" id="searchitem">
+       <ul id="suggestions"></ul>
+   </div>
+     
+  <a href="#prod1"><div class="products"  >
+       <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/737e6beb-15b3-4950-9c82-a642b67c1bfb/ZM+SUPERFLY+10+ELITE+KM+FG.png" class="image1" alt="">
+      </a>
+       <p class="text">Nike Mercurial Superfly 10</p>
+       <p class="shoetype">Football Shoe(Kylian Mbappe)</p>
+       <p class="cost">MRP : ₹ 25 095.00</p>
+       <p class="cost">Inclusive of all taxes
+        (Also includes all applicable duties)</p>
+       <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+  </div> 
+  <a href="#prod2">
+  <div class="products">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/579d3fe1-6a26-4d2b-b31d-1502ea6ee832/NIKE+REACTGATO.png" alt="" class="image1">
+  </a>
+    <p class="text">Nike React Gato</p>
+       <p class="shoetype">Low-Top Football Shoe</p>
+       <p class="cost">MRP : ₹ 11 397.00</p>
+       <p class="cost">Inclusive of all taxes
+        (Also includes all applicable duties)</p>
+        <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+  </div>
+
+  <a href="#prod3">
+  <div class="products">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f080726b-f0e5-4bf6-993a-0ad9b9340891/ZOOM+VAPOR+16+ACADEMY+KM+TF.png" class="image1" alt="">
+  </a>
+    <p class="text">Nike Mercurial Vapor 16</p>
+    <p class="shoetype">TF Low-Top Football Shoe</p>
+    <p class="cost">MRP : ₹ 8 067.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+     <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+</div> 
+
+ <a href="#prod4"><div class="products">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/baa3702e-8def-47bc-99f0-bec2f8baa56e/PHANTOM+GX+II+ACADEMY+FG%2FMG+EH.png" alt="" class="image1">
+</a>
+ <p class="text">Nike Phantom GX 2</p>
+    <p class="shoetype">MG Low-Top Football Boot</p>
+    <p class="cost">MRP : ₹ 12 975</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod5"><div class="products">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e1e48579-2276-477d-bcdc-e9751c34f651/PHANTOM+LUNA+II+CLUB+FG%2FMG.png" class="image1" alt="">
+  </a>
+    <p class="text">Nike Phantom Luna 2</p>
+    <p class="shoetype">MG High-Top Football Boot</p>
+    <p class="cost">MRP : ₹ 6 495.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+    <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod6"><div class="products">
+ <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aae02ea4-351d-432c-8bcf-62c1e083d0ac/custom-phantom-luna-2-elite-by-you.png" alt="" class="image1">
+</a>
+ <p class="text">Nike Phantom Luna 2 Elite</p>
+    <p class="shoetype">MG High-Top Football Boot</p>
+    <p class="cost">MRP : ₹ 26 995.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+     <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod7"><div class="products">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5f77fa98-433d-4bd7-a762-967b6fab8f01/ZM+SUPERFLY+10+ELITE+FG.png" class="image1" alt="">
+  </a>
+    <p class="text">Nike Mercurial Superfly Elite</p>
+    <p class="shoetype">MG High-Top Football Boot</p>
+    <p class="cost">MRP : ₹ 23 795.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+    <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod8"><div class="products">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/641c2ad1-800d-469a-9b5b-55b69ec6be60/PHANTOM+LUNA+II+ELITE+FG.png" alt="" class="image1">
+</a>
+ <p class="text">Nike Phantom Luna 2 Electric</p>
+    <p class="shoetype">FG High-Top Football Boot</p>
+    <p class="cost">MRP : ₹ 19 295.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+     <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+    </div>
+
+<a href="#prod9"><div class="products">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cc95025b-b567-4615-a1a1-1f2d352fba09/LEGEND+10+ELITE+FG+NU1.png" class="image1" alt="">
+  </a>
+    <p class="text">Nike United Tiempo Legend 10</p>
+    <p class="shoetype">FG Low-Top Football Boot</p>
+    <p class="cost">MRP : ₹ 21 295.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+    <button class="buy">Add to Cart</button>
+</div>
+
+
+<a href="#prod10"><div class="products">
+ <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f9dbcd15-5356-4ede-bdec-f35d2de95050/PHANTOM+GX+II+CLUB+TF.png" alt="" class="image1">
+</a>
+ <p class="text">Nike Phantom GX 2 Club</p>
+    <p class="shoetype">TF Low-Top Football Shoe</p>
+    <p class="cost">MRP : ₹ 5 217.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+     <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod11"><div class="products">
+    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ba8ff125-f8a6-4ff5-846c-70f02f0f20b5/custom-nike-mercurial-vapor-16-elite-by-you.png" class="image1" alt="">
+  </a>
+    <p class="text">Nike Mercurial Vapor 16 Elite</p>
+    <p class="shoetype">AG Por Low-Top Football Boot</p>
+    <p class="cost">MRP : ₹ 10 795.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+    <button class="buy">Order Now</button>
+    <button class="buy">Add to Cart</button>
+</div>
+
+
+
+<a href="#prod12"><div class="products">
+  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c1436f2d-e3a5-43f0-9788-bd48ea53facf/PHANTOM+LUNA+II+ACADEMY+TF.png" alt="" class="image1">
+</a>
+  <p class="text">Nike Luna 2 Pro Academy</p>
+    <p class="shoetype">TF High-Top Football Shoe</p>
+    <p class="cost">MRP : ₹ 8 995.00</p>
+    <p class="cost">Inclusive of all taxes
+     (Also includes all applicable duties)</p>
+     <button class="buy">Order Now</button>
+        <button class="buy">Add to Cart</button>
+</div>
+</main>
+
+
+<div class="details" id="prod1">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/737e6beb-15b3-4950-9c82-a642b67c1bfb/ZM+SUPERFLY+10+ELITE+KM+FG.png" class="image1" alt="">
+    <p class="productDetails">
+    Nike Mercurial Superfly 10 <br> <br> <bold>Rs. 25 095.00</bold> <br> <br> <strike>Rs. 30 995.00</strike>...36% OFF  <br> <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br> <br>
+     <h1>11</h1><h1>10</h1> 
+    <h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus12" ></i> Quantity: <span id="twelve">0</span> <i class="fa-solid fa-plus" id="plus12"></i></p>
+ 
+ 
+
+   <button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details" id="prod2">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/579d3fe1-6a26-4d2b-b31d-1502ea6ee832/NIKE+REACTGATO.png" class="image1" alt="">
+    <p class="productDetails">Nike React Gato<br> <br>Rs. 11 397.00  <br><br> <strike>Rs. 11 995</strike>...7% OFF
+    <br>  <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+      <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus11" ></i> Quantity: <span id="eleven">0</span> <i class="fa-solid fa-plus" id="plus11"></i></p>
+ 
+
+   <button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod3">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f080726b-f0e5-4bf6-993a-0ad9b9340891/ZOOM+VAPOR+16+ACADEMY+KM+TF.png" class="image1" alt="">
+    <p class="productDetails">
+      Nike Mercurial Vapor 16 <br> <br>Rs. 8 067.00<br><br> <strike>Rs. 8 495</strike>...17% OFF
+    <br>  <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+      <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus10" ></i> Quantity: <span id="ten">0</span> <i class="fa-solid fa-plus" id="plus10"></i></p>
+
+   <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod4">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/baa3702e-8def-47bc-99f0-bec2f8baa56e/PHANTOM+GX+II+ACADEMY+FG%2FMG+EH.png" class="image1" alt="">
+    <p class="productDetails">
+      Nike Phantom GX 2<br> <br>Rs. 12 975.00 <br><br> <strike>Rs. 13 979.</strike>...22% OFF
+    <br>  <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+      <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus9" ></i> Quantity: <span id="nine">0</span> <i class="fa-solid fa-plus" id="plus9"></i></p>
+
+   <button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod5">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e1e48579-2276-477d-bcdc-e9751c34f651/PHANTOM+LUNA+II+CLUB+FG%2FMG.png" class="image1" alt="">
+    <p class="productDetails">
+      Nike Phantom Luna 2<br> <br>Rs. 6 495.00 <br><br><strike>Rs. 11 295</strike>...46% OFF
+    <br>  <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+      <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus8" ></i> Quantity: <span id="eight">0</span> <i class="fa-solid fa-plus" id="plus8"></i></p>
+
+   <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod6">
+    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aae02ea4-351d-432c-8bcf-62c1e083d0ac/custom-phantom-luna-2-elite-by-you.png" class="image1" alt="">
+    <p class="productDetails">
+        Nike Phantom Luna 2 Elite<br> <br>Rs. 26 995.00 <br><br><strike>Rs. 29 847</strike>...11% OFF
+    <br>  <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+      <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus7" ></i> Quantity: <span id="seven">0</span> <i class="fa-solid fa-plus" id="plus7"></i></p>
+
+   <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod7">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5f77fa98-433d-4bd7-a762-967b6fab8f01/ZM+SUPERFLY+10+ELITE+FG.png" class="image1" alt="">
+    <p class="productDetails">
+      Nike Mercurial Superfly Elite <br> <br>Rs. 23 795.00 <br><br> <strike>Rs. 29 999</strike>...67% OFF
+    <br>  <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+      <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus6" ></i> Quantity: <span id="six">0</span> <i class="fa-solid fa-plus" id="plus6"></i></p>
+   <button class="add">Add to Bag</button>
+</div>
+
+<div class="details"  id="prod8">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/641c2ad1-800d-469a-9b5b-55b69ec6be60/PHANTOM+LUNA+II+ELITE+FG.png" class="image1" alt="">
+    <p class="productDetails">
+      Nike Phantom Luna 2 Electric <br> <br>Rs. 24 895.00 <br><br><strike>Rs. 25 444</strike>...16% OFF
+    <br>  <br>
+    MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+      <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+ </p>
+ <p class="plus"><i class="fa-solid fa-minus" id="minus5" ></i> Quantity: <span id="five">0</span> <i class="fa-solid fa-plus" id="plus5"></i></p>
+   <button class="add">Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod9">
+  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cc95025b-b567-4615-a1a1-1f2d352fba09/LEGEND+10+ELITE+FG+NU1.png" class="image1" alt="">
+  <p class="productDetails">
+    Nike United Tiempo Legend 10 <br> <br>Rs. 21 295.00 <br><br><strike>Rs. 14 999</strike>...7% OFF
+  <br>  <br>
+  MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+  <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+  <p class="plus"><i class="fa-solid fa-minus" id="minus4" ></i> Quantity: <span id="four">0</span> <i class="fa-solid fa-plus" id="plus4"></i></p>
+
+ <button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details"  id="prod10">
+  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f9dbcd15-5356-4ede-bdec-f35d2de95050/PHANTOM+GX+II+CLUB+TF.png" class="image1" alt="">
+  <p class="productDetails">
+    Nike Phantom GX 2 Club <br> <br>Rs. 5 217.00 <br><br><strike>Rs. 5 495</strike>...12% OFF
+  <br>  <br>
+  MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+    <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus3" ></i> Quantity: <span id="three">0</span> <i class="fa-solid fa-plus" id="plus3"></i></p>
+
+ <button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="details"  id="prod11">
+  <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ba8ff125-f8a6-4ff5-846c-70f02f0f20b5/custom-nike-mercurial-vapor-16-elite-by-you.png" class="image1" alt="">
+  <p class="productDetails">
+    Nike Mercurial Vapor 16 Elite<br> <br>Rs. 24 895.00 <br><br><strike>Rs. 25 797</strike>27% OFF
+  <br>  <br>
+  MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+    <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus2" ></i> Quantity: <span id="two">0</span> <i class="fa-solid fa-plus" id="plus2"></i></p>
+
+ <button class="add" >Add to Bag</button>
+</div>
+
+
+<div class="details"  id="prod12">
+  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c1436f2d-e3a5-43f0-9788-bd48ea53facf/PHANTOM+LUNA+II+ACADEMY+TF.png" class="image1" alt="">
+  <p class="productDetails">
+    Nike Luna 2 Pro Academy<br> <br>Rs. 8 995.00 <br><br><strike>Rs. 14 495</strike>...64% OFF
+  <br>  <br>
+  MRP Inclusive of all taxes  <br> <br> select size: <br> <br>  <br>
+    <h1>11</h1><h1>10</h1><h1>9</h1> <h1>8</h1> <h1>7</h1>
+</p>
+<p class="plus"><i class="fa-solid fa-minus" id="minus1" ></i> Quantity: <span id="one">0</span> <i class="fa-solid fa-plus" id="plus1"></i></p>
+ <button class="add">Add to Bag</button>
+</div>
+
+
+
+<div class="footer">
+  <div class="support">
+  <h1>SUPPORT</h1>
+  <a href="">Contact us</a>   
+  <a href="">Track Order</a>
+  <a href="">Sneakers</a>
+  <a href="">Cookie Setting</a>
+  <a href="">My Account</a>
+  <a href="">Terms & Conditions</a></div>
+
+  <div class="about">
+  <h1>ABOUT</h1>
+  <a href="">Company</a>
+  <a href="">Corporate News</a>
+  <a href="">Investors</a>
+  <a href="">Sustainablity</a>
+  <a href="">Carrers</a>
+  <a href="">Store Location</a></div>
+
+  <div class="contact">
+    <h1 >STAY UP TO DATE</h1>
+    <a href="https://www.youtube.com/user/nike" id="socialmedia1"><i class="fa-brands fa-youtube" id="socialmedia"></i></a>
+    <a href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  id="socialmedia1"><i class="fa-brands fa-x-twitter" id="socialmedia"></i></a>
+    <a href="https://www.instagram.com/nike/?hl=en"  id="socialmedia1"><i class="fa-brands fa-instagram" id="socialmedia"></i></a>   
+    <a href="https://www.facebook.com/nike/"  id="socialmedia1"><i class="fa-brands fa-facebook" id="socialmedia"></i></a>  
+</div>  
+
+  <div class="payment">
+      <h1 id="payment-method">PAYMENT</h1>
+      <a href="" class="payment-method1"><i class="fa-brands fa-cc-visa" id="payment-method"></i>  Visa</a>
+      <a href="" class="payment-method1"><i class="fa-brands fa-cc-mastercard" id="payment-method"></i>  Master Card</a>
+      <a href="" class="payment-method1"><i class="fa-brands fa-cc-amex" id="payment-method"></i>  American Express</a>
+      <a href="" class="payment-method1"><i class="fa-brands fa-paypal" id="payment-method"></i>  Paypal</a>
+      <a href="" class="payment-method1"><i class="fa-brands fa-google-pay" id="payment-method"></i>  Google Pay</a>
+      <a href="" class="payment-method1"><i class="fa-brands fa-amazon-pay" id="payment-method"> </i>  Amazon Pay</a>
+  </div>
+
+  
+</div>
+
+
+
+
+<script src="https://kit.fontawesome.com/f515d01f5b.js" crossorigin="anonymous"></script>
+<script src="action.js"></script>
+
+
+</body>
+</html>
