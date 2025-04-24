@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: my-servlet-app
+    env: java
+    buildCommand: mvn clean install
+    startCommand: java -cp "target/mywebapp.war:target/*" org.apache.catalina.startup.Catalina start
+    envVars:
+      - key: DATABASE_URL
+        value: "jdbc:postgresql://localhost:5432/loginpage"
+      - key: DATABASE_USERNAME
+        value: "postgres"
+      - key: DATABASE_PASSWORD
+        value: "tiger"
