@@ -7,11 +7,10 @@ services:
       export MAVEN_HOME=/tmp/apache-maven-3.8.1
       export PATH=$MAVEN_HOME/bin:$PATH
       mvn clean install
-    startCommand: java -cp "target/myapp.war:target/*" org.apache.catalina.startup.Catalina 
-start
+    startCommand: java -cp "target/myapp.war:target/*" org.apache.catalina.startup.Catalina start
     envVars:
       - key: DATABASE_URL
-        value: "jdbc:postgresql://localhost:5432/loginpage"
+        value: "jdbc:postgresql://your-database-host:5432/loginpage"
       - key: DATABASE_USERNAME
         value: "postgres"
       - key: DATABASE_PASSWORD
